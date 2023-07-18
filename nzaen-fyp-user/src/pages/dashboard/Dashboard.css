@@ -1,0 +1,24 @@
+hr {
+    border: 1px solid #eee;
+    margin: 0px;
+}
+
+.filter-buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.filter-button {
+    padding: 8px 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    /* Add this line for curved edges */
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.filter-button.active {
+    background-color: var(--primary-color);
+    color: #fff;
+}

@@ -1,0 +1,36 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": [
+    {
+      "target": "admin",
+      "public": "nzaen-fyp-admin/build",
+      "rewrites": [
+        {
+          "source": "/admin/**",
+          "destination": "/index.html"
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "user",
+      "public": "nzaen-fyp-user/build",
+      "rewrites": [
+        {
+          "source": "/user/**",
+          "destination": "/index.html"
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

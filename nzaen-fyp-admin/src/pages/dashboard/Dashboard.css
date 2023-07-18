@@ -1,0 +1,36 @@
+hr {
+    border: 1px solid #eee;
+    margin: 0px;
+}
+
+.filter-buttons {
+    display: flex;
+}
+
+.filter-button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-button.active {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.loading-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    /* Adjust the height as needed */
+}
+
+.loading-animation p {
+    margin-top: 10px;
+}

@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "nzaen-fyp"
+  },
+  "targets": {
+    "nzaen-fyp": {
+      "hosting": {
+        "admin": [
+          "evaluway-admin"
+        ],
+        "user": [
+          "evaluway-user"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

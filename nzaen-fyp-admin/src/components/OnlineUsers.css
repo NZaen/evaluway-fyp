@@ -1,0 +1,80 @@
+.user-list {
+    width: 20%;
+    min-width: 100px;
+    max-width: 220px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fbfbfb;
+    color: var(--heading-color);
+    box-shadow: inset 2px 0px 8px rgba(0, 0, 0, 0.2),
+        -1px 0px 1px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+    /* Enable vertical scrollbar */
+}
+
+.user-list.scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.user-list.scrollbar::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.user-list.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+.user-list.scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.user-list h2 {
+    text-align: right;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.2em;
+}
+
+.user-list .user-list-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.user-list .avatar {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.user-list .online-user {
+    display: inline-block;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    background: #0ebb50;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.avatar-wrapper-side {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.avatar-wrapper-side img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+}

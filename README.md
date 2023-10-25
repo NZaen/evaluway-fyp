@@ -10,7 +10,7 @@ Technologies such as React and Firebase were utilized in the
 development of Evaluway's front and back end for Admin and
 User subsystems, as well as the hosting solution
 
-Evaluway Admin
+Evaluway Admin :
 Admin portion of Evaluway designed to facilitate collaborative assessment of various types of media through the creation of questionnaires for users in order to generate real time analytics
 
 Instructions :
@@ -19,7 +19,7 @@ Instructions :
 3. run "npm run start" on the command line
 4. Create an account or use an existing one (admin@admin.com // admin123)
 
-Evaluway User
+Evaluway User : 
 User portion of Evaluway designed to answer questionnaires produced by administrators using Evaluway Admin as well as give feedback based on the overall usage of the system
 
 Instructions :
